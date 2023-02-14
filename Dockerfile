@@ -8,7 +8,5 @@ FROM tomcat:9.0-slim
 COPY flag /flag
 EXPOSE 8080
 COPY --from=build /app/target/helloworld.war $CATALINA_HOME/webapps
-RUN apt-get update && apt-get install -y \
-curl
-CMD /bin/bash
+
 RUN echo "credit card number: 4321-1234-1234-1234" >> /var/tmp/importantdata.txt
