@@ -17,13 +17,11 @@ spec:
     spec:
       containers:
       - name: panw-webserver
-        image: 13.250.65.189:8085/panw-webserver:latest
+        image: 183538325842.dkr.ecr.ap-southeast-1.amazonaws.com/panw-webserver:latest
         ports:
         - name: http
           containerPort: 8080
         imagePullPolicy: Always
-      imagePullSecrets:
-      - name: myregistrykey
 
 ---
 apiVersion: v1
