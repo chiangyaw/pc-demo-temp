@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: panw-webserver
-        image: 183538325842.dkr.ecr.ap-southeast-1.amazonaws.com/panw-webserver:latest
+        image: 13.250.65.189:8085/panw-webserver:latest
         ports:
         - name: http
           containerPort: 8080
