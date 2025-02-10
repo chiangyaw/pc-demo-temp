@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: panw-webserver
-        image: 183538325842.dkr.ecr.ap-southeast-1.amazonaws.com/panw-webserver:latest
+        image: chiangyaw/spring4shell:latest
         ports:
         - name: http
           containerPort: 8080
