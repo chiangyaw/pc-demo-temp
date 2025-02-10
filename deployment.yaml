@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: panw-webserver
-        image: chiangyaw/spring4shell:latest
+        image: chiangyaw/spring4shell:0.1
         ports:
         - name: http
           containerPort: 8080
